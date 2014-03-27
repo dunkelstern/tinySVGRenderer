@@ -1,0 +1,3 @@
+[submodule "libsvgtiny"]
+	path = libsvgtiny
+	url = https://github.com/dunkelstern/libsvgtiny.git
