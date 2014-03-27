@@ -1,3 +1,6 @@
 [submodule "libsvgtiny"]
 	path = libsvgtiny
 	url = https://github.com/dunkelstern/libsvgtiny.git
+[submodule "libdom"]
+	path = libdom
+	url = https://github.com/dunkelstern/libdom.git
