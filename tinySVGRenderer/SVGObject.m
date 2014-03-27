@@ -7,6 +7,7 @@
 //
 
 #import "SVGObject.h"
+#import "SVGPrivate.h"
 
 @interface SVGObject () {
     // Handling memory warnings

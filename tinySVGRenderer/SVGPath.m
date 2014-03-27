@@ -7,6 +7,7 @@
 //
 
 #import "SVGPath.h"
+#import "SVGPrivate.h"
 
 @implementation SVGPath
 

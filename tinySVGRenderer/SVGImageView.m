@@ -12,13 +12,12 @@
 @interface SVGImageView () {
     SVGObject *svgObject;
 }
-
 @end
 
 @implementation SVGImageView
 
 - (void)setup {
-    _svgFile         = nil;
+    _svgFile = nil;
     [self setContentMode:UIViewContentModeRedraw];
 }
 

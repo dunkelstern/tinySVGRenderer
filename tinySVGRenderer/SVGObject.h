@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVGItem.h"
 
 @interface SVGObject : NSObject
 

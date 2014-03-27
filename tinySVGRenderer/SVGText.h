@@ -7,11 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVGItem.h"
 
 @interface SVGText : NSObject
-+ (instancetype)textWithShape:(struct svgtiny_shape *)shape;
-@property (nonatomic, readonly) struct svgtiny_shape shape;
 
 @property (nonatomic, readonly) NSAttributedString *text;
 @property (nonatomic, assign) CGPoint origin;

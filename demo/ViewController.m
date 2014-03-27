@@ -22,15 +22,19 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [_svgView setSvgFile:@"tiger"];
+- (void)loadView {
+    [super loadView];
+    SVGImageView *svgView = [[SVGImageView alloc] initWithFrame:self.view.frame svgFile:@"tiger"];
+    _svgView = svgView;
+    [self.view addSubview:_svgView];
+
     UITapGestureRecognizer *touch = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
     [touch setNumberOfTouchesRequired:1];
 
     [_svgView addGestureRecognizer:touch];
+
 #if 0
-//    UIImage *image = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tiger" ofType:@"svg"]];
+    //    UIImage *image = [[UIImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"tiger" ofType:@"svg"]];
     UIImage *image = [UIImage imageNamed:@"tiger"];
     [_svgView setHidden:YES];
 

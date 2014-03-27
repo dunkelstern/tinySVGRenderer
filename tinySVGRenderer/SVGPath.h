@@ -7,12 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SVGItem.h"
 
-@interface SVGPath : NSObject <SVGItem>
-
-+ (instancetype)pathWithShape:(struct svgtiny_shape *)shape;
-@property (nonatomic, readonly) struct svgtiny_shape shape;
+@interface SVGPath : NSObject
 
 @property (nonatomic, readonly) CGPathRef cgPath;
 @property (nonatomic, strong) UIColor *fillColor;

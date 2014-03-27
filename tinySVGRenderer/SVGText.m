@@ -7,6 +7,7 @@
 //
 
 #import "SVGText.h"
+#import "SVGPrivate.h"
 
 @implementation SVGText
 

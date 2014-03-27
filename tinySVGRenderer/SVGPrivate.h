@@ -16,3 +16,14 @@
 
 #include "SVGPath.h"
 #include "SVGText.h"
+
+@interface SVGPath () <SVGItem>
++ (instancetype)pathWithShape:(struct svgtiny_shape *)shape;
+@property (nonatomic, readonly) struct svgtiny_shape shape;
+@end
+
+@interface SVGText () <SVGItem>
++ (instancetype)textWithShape:(struct svgtiny_shape *)shape;
+@property (nonatomic, readonly) struct svgtiny_shape shape;
+@end
+
