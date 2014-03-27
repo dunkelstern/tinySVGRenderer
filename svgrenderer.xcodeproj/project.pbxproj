@@ -125,6 +125,7 @@
 		8FD8025E18E0716500EB9ACF /* libxml_xmlparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8025D18E0716500EB9ACF /* libxml_xmlparser.c */; };
 		8FD802C418E0718600EB9ACF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD802C318E0718600EB9ACF /* libxml2.dylib */; };
 		8FD802C618E071D500EB9ACF /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD802C518E071D500EB9ACF /* libiconv.dylib */; };
+		8FD802C818E0730A00EB9ACF /* tiger.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8FD802C718E0730A00EB9ACF /* tiger.svg */; };
 		8FD802CB18E0733400EB9ACF /* SVGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD802CA18E0733400EB9ACF /* SVGImageView.m */; };
 		8FD8FE3118E069FE00EB9ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD8FE3018E069FE00EB9ACF /* Foundation.framework */; };
 		8FD8FE3318E069FE00EB9ACF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD8FE3218E069FE00EB9ACF /* CoreGraphics.framework */; };
@@ -500,6 +501,7 @@
 		8FD802C218E0717300EB9ACF /* html_ulist_element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html_ulist_element.h; sourceTree = "<group>"; };
 		8FD802C318E0718600EB9ACF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		8FD802C518E071D500EB9ACF /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		8FD802C718E0730A00EB9ACF /* tiger.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tiger.svg; sourceTree = SOURCE_ROOT; };
 		8FD802C918E0733400EB9ACF /* SVGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGImageView.h; path = svgrenderer/SVGImageView.h; sourceTree = "<group>"; };
 		8FD802CA18E0733400EB9ACF /* SVGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVGImageView.m; path = svgrenderer/SVGImageView.m; sourceTree = "<group>"; };
 		8FD8FE2D18E069FE00EB9ACF /* svgrenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = svgrenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1166,6 +1168,7 @@
 				8FD8FE4218E069FE00EB9ACF /* Main.storyboard */,
 				8FD8FE4518E069FE00EB9ACF /* ViewController.h */,
 				8FD8FE4618E069FE00EB9ACF /* ViewController.m */,
+				8FD802C718E0730A00EB9ACF /* tiger.svg */,
 				8FD8FE4818E069FE00EB9ACF /* Images.xcassets */,
 				8FD8FE3718E069FE00EB9ACF /* Supporting Files */,
 			);
@@ -1294,6 +1297,7 @@
 			files = (
 				8FD8FE4918E069FE00EB9ACF /* Images.xcassets in Resources */,
 				8FD8FE3B18E069FE00EB9ACF /* InfoPlist.strings in Resources */,
+				8FD802C818E0730A00EB9ACF /* tiger.svg in Resources */,
 				8FD8FE4418E069FE00EB9ACF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
