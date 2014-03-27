@@ -7,3 +7,6 @@
 [submodule "libparserutils"]
 	path = libparserutils
 	url = https://github.com/dunkelstern/libparserutils.git
+[submodule "libwapcaplet"]
+	path = libwapcaplet
+	url = git://git.netsurf-browser.org/libwapcaplet.git
