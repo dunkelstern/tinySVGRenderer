@@ -4,3 +4,6 @@
 [submodule "libdom"]
 	path = libdom
 	url = https://github.com/dunkelstern/libdom.git
+[submodule "libparserutils"]
+	path = libparserutils
+	url = https://github.com/dunkelstern/libparserutils.git
