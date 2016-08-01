@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4E7501ED9CA57FB66A08641A94E4915C3A020E12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BA85DC1162BCF2B1579557DBF17F0EE6799F9B4B" : 0,
+    "31D5E034AC39B57FE6DE465243ABCA1EC0D74FA6" : 0,
+    "A6893613B38ED679F5992131C5A09336C47C0345" : 0,
+    "4B8CF4240CFB761F7EC5859A93F9EA814584B858" : 0,
+    "4E7501ED9CA57FB66A08641A94E4915C3A020E12" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "095B809E-AA12-4087-8A94-92A63EFA4C2D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BA85DC1162BCF2B1579557DBF17F0EE6799F9B4B" : "tinySVGRenderer\/libparserutils\/",
+    "31D5E034AC39B57FE6DE465243ABCA1EC0D74FA6" : "tinySVGRenderer\/libwapcaplet\/",
+    "A6893613B38ED679F5992131C5A09336C47C0345" : "tinySVGRenderer\/libsvgtiny\/",
+    "4B8CF4240CFB761F7EC5859A93F9EA814584B858" : "tinySVGRenderer\/libdom\/",
+    "4E7501ED9CA57FB66A08641A94E4915C3A020E12" : "tinySVGRenderer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "tinySVGRenderer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tinySVGRenderer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.netsurf-browser.org\/libwapcaplet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "31D5E034AC39B57FE6DE465243ABCA1EC0D74FA6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dunkelstern\/libdom.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B8CF4240CFB761F7EC5859A93F9EA814584B858"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/martinwork\/tinySVGRenderer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E7501ED9CA57FB66A08641A94E4915C3A020E12"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dunkelstern\/libsvgtiny.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6893613B38ED679F5992131C5A09336C47C0345"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dunkelstern\/libparserutils.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA85DC1162BCF2B1579557DBF17F0EE6799F9B4B"
+    }
+  ]
+}

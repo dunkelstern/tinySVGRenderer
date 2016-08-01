@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BED70221D4F89B300867CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BED70211D4F89B300867CE9 /* Main.storyboard */; };
 		8F2654AD18E459A0002B190A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD8FE3018E069FE00EB9ACF /* Foundation.framework */; };
 		8F2654CF18E45A28002B190A /* SVGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F26549218E1BDE4002B190A /* SVGPath.m */; };
 		8F2654D018E45A28002B190A /* SVGText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F26549518E1BDF1002B190A /* SVGText.m */; };
@@ -186,6 +187,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5BED70211D4F89B300867CE9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8F26549118E1BDE4002B190A /* SVGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPath.h; sourceTree = "<group>"; };
 		8F26549218E1BDE4002B190A /* SVGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGPath.m; sourceTree = "<group>"; };
 		8F26549418E1BDF1002B190A /* SVGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGText.h; sourceTree = "<group>"; };
@@ -1188,6 +1190,7 @@
 				8FD802C718E0730A00EB9ACF /* tiger.svg */,
 				8FD8FE4818E069FE00EB9ACF /* Images.xcassets */,
 				8FD8FE3718E069FE00EB9ACF /* Supporting Files */,
+				5BED70211D4F89B300867CE9 /* Main.storyboard */,
 			);
 			name = Demo;
 			path = demo;
@@ -1283,7 +1286,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = planetmutlu;
 			};
-			buildConfigurationList = 8FD8FE2818E069FE00EB9ACF /* Build configuration list for PBXProject "demo" */;
+			buildConfigurationList = 8FD8FE2818E069FE00EB9ACF /* Build configuration list for PBXProject "tinySVGRenderer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1308,6 +1311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FD8FE4918E069FE00EB9ACF /* Images.xcassets in Resources */,
+				5BED70221D4F89B300867CE9 /* Main.storyboard in Resources */,
 				8FD8FE3B18E069FE00EB9ACF /* InfoPlist.strings in Resources */,
 				8FD802C818E0730A00EB9ACF /* tiger.svg in Resources */,
 			);
@@ -1658,8 +1662,9 @@
 				8F2654CA18E459A0002B190A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8FD8FE2818E069FE00EB9ACF /* Build configuration list for PBXProject "demo" */ = {
+		8FD8FE2818E069FE00EB9ACF /* Build configuration list for PBXProject "tinySVGRenderer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FD8FE5D18E069FE00EB9ACF /* Debug */,
