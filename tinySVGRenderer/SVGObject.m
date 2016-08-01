@@ -43,6 +43,9 @@
             _filename = [[NSBundle mainBundle] pathForResource:name ofType:@"svg"];
         }
         _svgData = [NSData dataWithContentsOfFile:_filename];
+      
+        // test memory leak
+        // for ( int dbg = 0; dbg < 50; dbg++)
         if (![self parseSVG]) return nil;
     }
     return self;
@@ -168,6 +171,8 @@
                 _boundingBox = CGSizeMake([components[2] integerValue], [components[3] integerValue]);
             }
         }
+      
+        dom_node_unref(svg); // must unref or svgtiny_free_dom cannot free dom
     }
 
     if (CGSizeEqualToSize(_size, CGSizeZero)) {
